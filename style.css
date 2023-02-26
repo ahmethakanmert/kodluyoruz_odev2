@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ana{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+margin-top: 10px;
+
+}
+img{
+    width: 351px;
+}
+.search{
+    background-color: #eee;
+    width: 85.16rem;
+   
+    text-align: center;
+    /* margin: 2px; */
+    padding: 2px;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: 100;
+}
+.search input{
+    width: 18.9rem;
+}
+.search button{
+    padding: 1px 6px;
+}
+.anabox{
+    /* display: flex;
+    width: 900px;
+    align-content: stretch;
+    flex-wrap: wrap; */
+    width: 85.16rem;
+    margin-top: 2px;
+    
+    
+    
+}
+.box1{
+    background-color: rgb(126, 229, 218) ;
+    flex-direction: column;
+    width: 31.549rem;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    
+}
+.box2{
+    background-color: rgb(112, 204, 194);
+    text-align: center;
+    flex-direction: column;
+    float: left;
+    width: 16.973rem;
+    font-size: small;
+    padding-top: 8px;
+    box-sizing: border-box;
+    margin-right: 2px;
+}
+.box3{
+    float: left;
+    font-size: small;
+    background-color: rgb(98, 179, 170) ;
+    width: 36.38902rem;
+    text-align: center;
+
+}
+.box1, .box2, .box3{
+    height: 4.55rem;
+}
+.box3 button{
+    padding: 1px 6px;
+}
+.anabox+p{
+    font-size: small;
+    margin-top: 15px;
+}
